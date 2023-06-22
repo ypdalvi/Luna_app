@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "648100353576",
+    "project_id": "pro-luna",
+    "storage_bucket": "pro-luna.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648100353576:android:c0b301787655d84cd5471d",
+        "android_client_info": {
+          "package_name": "com.example.luna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648100353576-1bf3kmdap0jrn9n2nbc7mqct2h4768tu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV046V-Rf5hg_OzjXcohoxBM2DXdkUmu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648100353576-1bf3kmdap0jrn9n2nbc7mqct2h4768tu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "648100353576-fq0oolclq3clh4214v5c5uq2lsqf1cpg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.luna"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
