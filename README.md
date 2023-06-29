@@ -1,6 +1,10 @@
 
 # luna
 
+  Welcome to Luna. We are a home-grown brand which was started with the intent to make menstrual products more accessible and easily available for women throughout the country. But, thats not it! We also aim to achieve an environment where periods and women hygiene isn’t considered to be a taboo topic and is talked about freely and widely. For that, we offer customisable period kits, good quality period and hygiene products and the most popular feature of our website “SAGE”!! Whether you are a first time user, a registered user or you have gotten your period for the first time ever and just need some guidance; Sage has got you covered!! It can help you with customising your period kit, educating you about the different kind of products available in the market and you can use it as your period tracker as well!! We hope you have a seamless shopping experience at Luna! 
+  
+  Happy chumming!!
+
 ## User
 
 
