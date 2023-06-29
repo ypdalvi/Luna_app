@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:luna/core/common/loader.dart';
-import 'package:luna/features/auth/controller/auth_controller.dart';
 import 'package:luna/theme/pallete.dart';
 import '../../../core/constants/constants.dart';
 
@@ -23,7 +21,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-
     int page = ref.watch(pageProvider);
 
     return Scaffold(
@@ -33,12 +30,20 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         backgroundColor: Pallete.objColor,
         items: const [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: '',
+            icon: Padding(
+              padding: EdgeInsets.only(
+                top: 10,
+              ),
+              child: Icon(Icons.home),
+            ),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.shopping_bag),
-            label: '',
+            icon: Padding(
+              padding: EdgeInsets.only(
+                top: 10,
+              ),
+              child: Icon(Icons.shopping_bag),
+            ),
           ),
         ],
         onTap: onPageChanged,

@@ -48,6 +48,7 @@ class AdminController extends StateNotifier<bool> {
     try {
       int i = 1;
       for (File file in files) {
+
         final image = await _storageRepository.storeFile(
           path: 'products/$category/$pid',
           id: i.toString(),
@@ -70,6 +71,8 @@ class AdminController extends StateNotifier<bool> {
 
       await _adminRepository.addProduct(product);
 
+      // addMessage(name);
+
       state = false;
       print("success");
       if (context.mounted) {
@@ -80,4 +83,8 @@ class AdminController extends StateNotifier<bool> {
       showSnackBar(context, e.toString());
     }
   }
+
+  // void addMessage(String msg) {
+  //   _adminRepository.addMessage(msg);
+  // }
 }

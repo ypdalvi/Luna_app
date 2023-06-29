@@ -1,9 +1,7 @@
 import 'dart:developer';
-
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:luna/core/utils.dart';
 import '../../../models/user_model.dart';
 import '../repository/auth_repository.dart';
 
@@ -63,6 +61,7 @@ class AuthController extends StateNotifier<bool> {
     await authRepository.logOut();
     state = false;
   }
+  
   // void verifyOTP(BuildContext context, String verificationId, String userOTP) {
   //   authRepository.verifyOTP(
   //     context: context,

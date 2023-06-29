@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		2uWV1zZI8um2UT9sscXsVJRYKbk=
+		nj8NiUzdnyPXgDVRvFLwyp+o0Fo=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		tWLIxBbFj9apkeQ8KlS2I1jG23o=
+		GoXaO+SgYXyP7phRZg98FbG7sSY=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		tc3DQiL8w01aFUftx+/0kYDIPfQ=
+		KqGbyhgeAmaCaY+3/t2iczXXMZM=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/appliances.jpeg</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		ROigVLw1p/WGsJkDLbKmozbFbvk=
+		hcjm2cbuRFeXysgd9PaspMmfj+w=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -518,6 +518,42 @@
 		<key>Frameworks/FirebaseFirestore.framework/_CodeSignature/CodeResources</key>
 		<data>
 		7LxxCNQSP4HnME8GXYfwmyNQnG4=
+		</data>
+		<key>Frameworks/FirebaseFunctions.framework/FirebaseFunctions</key>
+		<data>
+		CASRueWfcI4x16aMJ8f5gQyQhNg=
+		</data>
+		<key>Frameworks/FirebaseFunctions.framework/Info.plist</key>
+		<data>
+		2DS83q04O1c7aSHHL4xWP2MKfPs=
+		</data>
+		<key>Frameworks/FirebaseFunctions.framework/_CodeSignature/CodeResources</key>
+		<data>
+		CTcSSQSa6RduiaSY2E1b+5nYZWA=
+		</data>
+		<key>Frameworks/FirebaseMessagingInterop.framework/FirebaseMessagingInterop</key>
+		<data>
+		Xc4lAexLZ2y+HxADrNIhbAflsW0=
+		</data>
+		<key>Frameworks/FirebaseMessagingInterop.framework/Info.plist</key>
+		<data>
+		V2Nv0v4BvfhNy9yZ1gtyqjsqLCc=
+		</data>
+		<key>Frameworks/FirebaseMessagingInterop.framework/_CodeSignature/CodeResources</key>
+		<data>
+		avMMDBHPBh/XxE9nnQ9KwwNJcaI=
+		</data>
+		<key>Frameworks/FirebaseSharedSwift.framework/FirebaseSharedSwift</key>
+		<data>
+		lQLkdQcsz6WrgLdNDIUxg/HBJSY=
+		</data>
+		<key>Frameworks/FirebaseSharedSwift.framework/Info.plist</key>
+		<data>
+		3uZ/g7P2V8Dg2uJcVOLX5lFMuFE=
+		</data>
+		<key>Frameworks/FirebaseSharedSwift.framework/_CodeSignature/CodeResources</key>
+		<data>
+		Rfz1RBJ9Sd1QFSAMQAozZV/M1IY=
 		</data>
 		<key>Frameworks/FirebaseStorage.framework/FirebaseStorage</key>
 		<data>
@@ -1059,7 +1095,7 @@
 		</data>
 		<key>Frameworks/absl.framework/absl</key>
 		<data>
-		WMGUnilwu5G1TLMFqFu7+VI7Iss=
+		8zKJv71UT05SSavtzUnroSl6M7U=
 		</data>
 		<key>Frameworks/file_picker.framework/Info.plist</key>
 		<data>
@@ -1083,7 +1119,7 @@
 		</data>
 		<key>Frameworks/grpc.framework/grpc</key>
 		<data>
-		VpgZqRcN4SyTU0fLNAZYg5tEv6c=
+		NIczhwe4U8cwF6A6K4m2KETPCH0=
 		</data>
 		<key>Frameworks/grpcpp.framework/Info.plist</key>
 		<data>
@@ -1250,7 +1286,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BN9xvjdNLLjnhaOniFq8ud3PNYWx3I/EtsInCiCIzx8=
+			AqYMi5wxb6Oei4wNwOjPU/I9pxY9PajUc9qPlyBy7x0=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -1264,7 +1300,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZwMCIaLyAp6rr1+puc/OVhQbD7XAxauSQY5nvxrpE2M=
+			XuXd7k8fmng3Nb2WjEB+4IflqFhvIYx3f5OkSxGcqOc=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
@@ -1292,7 +1328,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3/vr4zO8NfqqjognaRNfISSZgD8bAxdVgvi5uIXvpWQ=
+			XZKL1HtEgoX/4JZ2/Z+5jGkn7iKZ05PzkP+e4ELTZko=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/appliances.jpeg</key>
@@ -1432,7 +1468,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ZqGNstkC0avWRQRHOBUPw1DNEQkLIAe3dIeSJxeKGw=
+			ScJj369JK1NBPdze+9czI+FCCNYBoHS/2Ned1MevbI8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -1920,6 +1956,69 @@
 			<key>hash2</key>
 			<data>
 			wQKP3mCZtRYARssHWliycC/v9OBlEqK4EOmHm/TbI2E=
+			</data>
+		</dict>
+		<key>Frameworks/FirebaseFunctions.framework/FirebaseFunctions</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WOKkzzfAkFiX3qRHFSnxNGsU3oceka3B6uIWEQbM5dY=
+			</data>
+		</dict>
+		<key>Frameworks/FirebaseFunctions.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XWqcn/IshT2CMXbQt3rbkvNfvFrwUa1OkTcsOsf6Ck0=
+			</data>
+		</dict>
+		<key>Frameworks/FirebaseFunctions.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hC00kkBIwdhewnaRcbfF1POsuBrHdHve41O26QkJ3G0=
+			</data>
+		</dict>
+		<key>Frameworks/FirebaseMessagingInterop.framework/FirebaseMessagingInterop</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ujLSQITP4kSDegeH1tucJv7lkGIDyqOBu1s0qM/PYnw=
+			</data>
+		</dict>
+		<key>Frameworks/FirebaseMessagingInterop.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2m9nA2tHH74kTN/MbvIV1wbr/CVw2FmBtxK8wSLFrKE=
+			</data>
+		</dict>
+		<key>Frameworks/FirebaseMessagingInterop.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JitzocTf3JRvOlKUl/BwFGGsF9y/hbORQPsJRe80JOQ=
+			</data>
+		</dict>
+		<key>Frameworks/FirebaseSharedSwift.framework/FirebaseSharedSwift</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l4oSrksGjq8Uwn3tNQTj/hif2l4dbOxdeVFOTNbB1y4=
+			</data>
+		</dict>
+		<key>Frameworks/FirebaseSharedSwift.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9lXWB5+Fsf/Giy6bsQ8RoCHdAiO57+hrf0n0EGwU9fA=
+			</data>
+		</dict>
+		<key>Frameworks/FirebaseSharedSwift.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2l3R8PERo+xx5ATlu2b24IUWRxndyp3ZGjNVN6Gl1hE=
 			</data>
 		</dict>
 		<key>Frameworks/FirebaseStorage.framework/FirebaseStorage</key>
@@ -2611,7 +2710,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			egrJIxy8taIMkuYz3/g5V1KG4y5mnyFpte1K7Egm5fA=
+			BE3gAME275Cw18LuIoRaHF62a4K1mknTYGuqLyFkNQY=
 			</data>
 		</dict>
 		<key>Frameworks/file_picker.framework/Info.plist</key>
@@ -2653,7 +2752,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dMajXeBHg787HBW1+KvLhb9TmtIBg+Bv/vjoqWsOiU4=
+			OFUoUzMgJdcjs7n6e4+GQ0EftAXIZOW9oujMTGcB5c8=
 			</data>
 		</dict>
 		<key>Frameworks/grpcpp.framework/Info.plist</key>

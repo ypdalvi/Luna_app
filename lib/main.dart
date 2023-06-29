@@ -1,11 +1,12 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:cloud_functions/cloud_functions.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_storage/firebase_storage.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:luna/features/admin/screens/admin_home_screen.dart';
 import 'package:luna/features/auth/screens/login_screen.dart';
-import 'package:luna/features/health/controller/health_controller.dart';
-import 'package:luna/features/home/screens/home_screen.dart';
 import 'package:luna/proxy_screen.dart';
 import 'package:luna/router.dart';
 import 'package:luna/theme/pallete.dart';
@@ -20,6 +21,19 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+
+  if (kDebugMode) {
+    try {
+      FirebaseFirestore.instance.useFirestoreEmulator('localhost', 8080);
+      await FirebaseAuth.instance.useAuthEmulator('localhost', 9099);
+      FirebaseFunctions.instance.useFunctionsEmulator("localhost", 5001);
+      await FirebaseStorage.instance.useStorageEmulator("localhost", 9199);
+    } catch (e) {
+      // ignore: avoid_print
+      print(e);
+    }
+  }
+
   runApp(
     const ProviderScope(
       child: MyApp(),

@@ -63,17 +63,14 @@ class ProductModel {
     return ProductModel(
       name: map['name'] as String,
       description: map['description'] as String,
-      quantity: map['quantity'] as double,
+      quantity: double.parse(map['quantity'].toString()),
       images: (map['images'] as List).map((item) => item as String).toList(),
       category: map['category'] as String,
-      price: map['price'] as double,
+      price: double.parse(map['price'].toString()),
       pid: map['pid'] != null ? map['pid'] as String : null,
-      rating : (map['rating'] as List<dynamic>).map((e) => RatingModel.fromMap(e)).toList(),
-      // rating: List<RatingModel>.from(
-      //   (map['rating'] as List<int>).map<RatingModel>(
-      //     (x) => RatingModel.fromMap(x as Map<String, dynamic>),
-      //   ),
-      // ),
+      rating: (map['rating'] as List<dynamic>)
+          .map((e) => RatingModel.fromMap(e))
+          .toList(),
     );
   }
 

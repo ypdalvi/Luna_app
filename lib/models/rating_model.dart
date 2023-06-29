@@ -16,7 +16,7 @@ class RatingModel {
   factory RatingModel.fromMap(Map<String, dynamic> map) {
     return RatingModel(
       userId: map['userId'] as String,
-      rating: map['rating'] as double,
+      rating: double.parse(map['rating'].toString()),
     );
   }
 

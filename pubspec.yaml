@@ -49,6 +49,9 @@ dependencies:
   dotted_border: ^2.0.0+3
   collection: ^1.16.0
   flutter_rating_bar: ^4.0.1
+  http: ^0.13.5
+  cloud_functions: ^4.3.3
+  url_launcher: ^6.1.11
   # fpdart: ^0.6.0
 
 

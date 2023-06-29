@@ -24,17 +24,16 @@ class StorageRepository {
       final ref = _firebaseStorage.ref().child(path).child(id);
 
       UploadTask uploadTask = ref.putFile(file!);
-
       await uploadTask.asStream().first;
 
       final snapshot = uploadTask.snapshot;
-
       var ret;
       await snapshot.ref.getDownloadURL().then((url) => {ret = url});
       return ret;
     } on FirebaseException catch (e) {
       throw e.message!;
     } catch (e) {
+      print(e);
       rethrow;
     }
   }

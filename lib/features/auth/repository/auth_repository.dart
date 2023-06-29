@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/widgets.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:luna/core/providers/firebase_providers.dart';
@@ -8,6 +8,7 @@ import 'package:luna/core/utils.dart';
 import 'package:uuid/uuid.dart';
 import '../../../core/constants/firebase_constants.dart';
 import '../../../models/user_model.dart';
+
 
 final authRepositoryProvider = Provider(
   (ref) => AuthRepository(
@@ -40,6 +41,7 @@ class AuthRepository {
     }
     return user;
   }
+
 
   Future<UserModel?> signInWithGoogle() async {
     try {

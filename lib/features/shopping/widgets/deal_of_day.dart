@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:luna/features/shopping/controller/shopping_controller.dart';
+import 'package:luna/models/product_model.dart';
 import '../../../core/common/error_text.dart';
 import '../../../core/common/loader.dart';
-
+import '../../product_details/screens/product_details_screen.dart';
 
 class DealOfTheDay extends ConsumerStatefulWidget {
   const DealOfTheDay({super.key});
@@ -13,14 +14,13 @@ class DealOfTheDay extends ConsumerStatefulWidget {
 }
 
 class _DealOfTheDayState extends ConsumerState<DealOfTheDay> {
-
-  // void navigateToDetailScreen() {
-  //   Navigator.pushNamed(
-  //     context,
-  //     ProductDetailScreen.routeName,
-  //     arguments: product,
-  //   );
-  // }
+  void navigateToDetailScreen(ProductModel product) {
+    Navigator.pushNamed(
+      context,
+      ProductDetailScreen.routeName,
+      arguments: product,
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -28,10 +28,10 @@ class _DealOfTheDayState extends ConsumerState<DealOfTheDay> {
 
     return (isLoading)
         ? const Loader()
-        : ref.watch(dealOfTheDayProvider).when(
+        : ref.watch(dealOfTheDayProvider(context)).when(
             data: (product) {
               return GestureDetector(
-                // onTap: navigateToDetailScreen,
+                onTap: () => navigateToDetailScreen(product!),
                 child: Column(
                   children: [
                     Container(
@@ -39,37 +39,46 @@ class _DealOfTheDayState extends ConsumerState<DealOfTheDay> {
                       padding: const EdgeInsets.only(left: 10, top: 15),
                       child: const Text(
                         'Deal of the day',
-                        style: TextStyle(fontSize: 20),
+                        style: TextStyle(
+                          fontSize: 20,
+                          color: Colors.black,
+                        ),
                       ),
                     ),
                     Image.network(
-                      product.images[0],
+                      product!.images[0],
                       height: 235,
                       fit: BoxFit.fitHeight,
                     ),
                     Container(
                       padding: const EdgeInsets.only(left: 15),
                       alignment: Alignment.topLeft,
-                      child: const Text(
-                        '\$100',
-                        style: TextStyle(fontSize: 18),
+                      child: Text(
+                        '\$${product!.price}',
+                        style: const TextStyle(
+                          fontSize: 18,
+                          color: Colors.black,
+                        ),
                       ),
                     ),
                     Container(
                       alignment: Alignment.topLeft,
                       padding:
                           const EdgeInsets.only(left: 15, top: 5, right: 40),
-                      child: const Text(
-                        'Rivaan',
+                      child: Text(
+                        '${product!.name}',
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
+                        style: const TextStyle(
+                          color: Colors.black,
+                        ),
                       ),
                     ),
                     SingleChildScrollView(
                       scrollDirection: Axis.horizontal,
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: product.images
+                        children: product!.images
                             .map(
                               (e) => Image.network(
                                 e,
